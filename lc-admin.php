@@ -20,7 +20,7 @@
  
  require_once( 'BFIGitHubPluginUploader.php' );
 if ( is_admin() ) {
-    new BFIGitHubPluginUpdater( __FILE__, 'simranjit-developer', "git-first" );
+    new BFIGitHubPluginUpdater( __FILE__, 'simranjit-developer', "new-plugin" );
 }
 
 
